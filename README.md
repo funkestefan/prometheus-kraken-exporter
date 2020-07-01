@@ -1,6 +1,6 @@
 # prometheus-dash-exporter 
 
-Prometheus exporter for the DASH cryptocurrency using https://www.cryptonator.com/
+Prometheus exporter for the DASH cryptocurrency using the [Cryptonator](https://www.cryptonator.com/) API.
 
 This is a simple server that scrapes DASH value in EUR from the cryptonator.com API.
 POC project to get me started with python3.
