@@ -7,10 +7,12 @@ import time
 import json
 import requests
 
-debug = True
+debug = False
+
+http_port = 9091
+interval = 60
 
 url = "https://www.cryptonator.com/api/ticker/dash-eur"
-http_port = 9091
 headers = { 'User-Agent': 'prometheus-dash-exporter/0.2' }
 
 global_dash_json = {}
@@ -62,4 +64,4 @@ if __name__ == '__main__':
 
     # grab data and expose values
     while True:
-        process_request(60)
+        process_request(interval)

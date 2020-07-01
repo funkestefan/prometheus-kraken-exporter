@@ -10,6 +10,7 @@ prometheus_client (pip3 install prometheus_client)
 
 ## Config values
 http_port = tcp/listener, default: 9091
+interval = refresh values every x seconds, default 60
 
 ### Exported metrics
 - dash_value_in_EUR
